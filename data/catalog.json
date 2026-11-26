@@ -1,0 +1,71 @@
+{
+  "synthetic": true,
+  "zones": [
+    {
+      "id": "elder-room",
+      "capacity": 4,
+      "service": "elder"
+    },
+    {
+      "id": "child-room",
+      "capacity": 4,
+      "service": "child"
+    }
+  ],
+  "ratios": [
+    {
+      "service": "elder",
+      "level": "assisted",
+      "peoplePerWorker": 2,
+      "qualification": "care"
+    },
+    {
+      "service": "child",
+      "level": "toddler",
+      "peoplePerWorker": 3,
+      "qualification": "nursery"
+    }
+  ],
+  "workers": [
+    {
+      "id": "worker-a",
+      "qualifications": [
+        "care",
+        "nursery"
+      ]
+    },
+    {
+      "id": "worker-b",
+      "qualifications": [
+        "care"
+      ]
+    },
+    {
+      "id": "worker-c",
+      "qualifications": [
+        "nursery"
+      ]
+    }
+  ],
+  "families": [
+    {
+      "id": "family-a",
+      "members": [
+        {
+          "id": "elder-a",
+          "service": "elder",
+          "level": "assisted"
+        },
+        {
+          "id": "child-a",
+          "service": "child",
+          "level": "toddler"
+        }
+      ],
+      "guardians": [
+        "guardian-a",
+        "guardian-b"
+      ]
+    }
+  ]
+}

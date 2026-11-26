@@ -1,0 +1,82 @@
+{
+  "synthetic": true,
+  "records": [
+    {
+      "recordId": "synthetic-01",
+      "kind": "familyRequest",
+      "payload": {
+        "family": "family-a",
+        "from": "2026-12-02T09:00:00+08:00",
+        "until": "2026-12-02T12:00:00+08:00",
+        "together": true
+      }
+    },
+    {
+      "recordId": "synthetic-02",
+      "kind": "duty",
+      "payload": {
+        "worker": "worker-a",
+        "zone": "elder-room",
+        "from": "2026-12-02T09:00:00+08:00",
+        "until": "2026-12-02T12:00:00+08:00"
+      }
+    },
+    {
+      "recordId": "synthetic-03",
+      "kind": "duty",
+      "payload": {
+        "worker": "worker-c",
+        "zone": "child-room",
+        "from": "2026-12-02T09:00:00+08:00",
+        "until": "2026-12-02T12:00:00+08:00"
+      }
+    },
+    {
+      "recordId": "synthetic-04",
+      "kind": "arrival",
+      "payload": {
+        "person": "elder-a"
+      }
+    },
+    {
+      "recordId": "synthetic-05",
+      "kind": "arrival",
+      "payload": {
+        "person": "child-a"
+      }
+    },
+    {
+      "recordId": "synthetic-06",
+      "kind": "workerAbsent",
+      "payload": {
+        "worker": "worker-a",
+        "at": "2026-12-02T10:00:00+08:00"
+      }
+    },
+    {
+      "recordId": "synthetic-07",
+      "kind": "extend",
+      "payload": {
+        "family": "family-a",
+        "until": "2026-12-02T13:00:00+08:00"
+      }
+    },
+    {
+      "recordId": "synthetic-08",
+      "kind": "pickupGrantChange",
+      "payload": {
+        "person": "child-a",
+        "from": "guardian-a",
+        "to": "guardian-b"
+      }
+    },
+    {
+      "recordId": "synthetic-09",
+      "kind": "pickupAttempt",
+      "payload": {
+        "person": "child-a",
+        "guardian": "guardian-a"
+      }
+    }
+  ]
+}

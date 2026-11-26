@@ -1,0 +1,12 @@
+{
+  "name": "家属通知接收端",
+  "operations": [
+    "notify"
+  ],
+  "identity_fields": [
+    "requestId",
+    "familyId",
+    "noticeId"
+  ],
+  "facts": "通知返回 acceptedAt 和 receiptId，接收成功只表示送达通知，不表示家属同意替班、延长或变更接送授权。"
+}
