@@ -66,6 +66,35 @@
         "guardian-a",
         "guardian-b"
       ]
+    },
+    {
+      "id": "family-b",
+      "members": [
+        {
+          "id": "elder-b",
+          "service": "elder",
+          "level": "assisted"
+        },
+        {
+          "id": "elder-c",
+          "service": "elder",
+          "level": "assisted"
+        },
+        {
+          "id": "elder-d",
+          "service": "elder",
+          "level": "assisted"
+        },
+        {
+          "id": "child-b",
+          "service": "child",
+          "level": "toddler"
+        }
+      ],
+      "guardians": [
+        "guardian-c",
+        "guardian-d"
+      ]
     }
   ]
 }
